@@ -1,0 +1,39 @@
+# Configuración de DisablingFeatures
+
+# URL del Webhook de Discord
+discord-webhook-url: "https://discord.com/api/webhooks/XXXX/XXXXXXXX"
+
+# Portales
+disable-nether-portal: true
+disable-end-portal: true
+
+# Entidades
+disable-wither: true
+
+# Misc
+disable-tnt: true
+disable-elytras: true
+
+# Notify users
+Notify:
+  chat:
+    enabled: true
+    message-nether-portal: "§f[§c§lAVISO§f] §eNo está permitido abrir portales al Nether!"
+    message-end-portal: "§f[§c§lAVISO§f] §eNo está permitido abrir portales al End!"
+    message-wither: "§f[§c§lAVISO§f] §eNo está permitido invocar al Wither!"
+    message-tnt: "§f[§c§lAVISO§f] §eNo está permitido el uso de TNT!"
+    message-elytras: "§f[§c§lAVISO§f] §eNo está permitido el uso de elytras!"
+  title:
+    enabled: true
+    message-nether-portal: "§eNo está permitido crear portales al Nether"
+    message-end-portal: "§eNo está permitido crear portales al End"
+    message-wither: "§eNo está permitido invocar al Wither"
+    message-tnt: "§eNo está permitido el uso de TNT!"
+    message-elytras: "§f[§c§lAVISO§f] §eNo está permitido el uso de elytras!"
+  actionbar:
+    enabled: true
+    message-nether-portal: "§cNo está permitido crear portales al Nether"
+    message-end-portal: "§cNo está permitido crear portales al End"
+    message-wither: "§cNo está permitido invocar al Wither"
+    message-tnt: "§cNo está permitido el uso de TNT!"
+    message-elytras: "§f[§c§lAVISO§f] §eNo está permitido el uso de elytras!"

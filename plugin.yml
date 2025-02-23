@@ -1,0 +1,6 @@
+name: DisablingFeatures
+version: 1.0
+main: com.xlilith.disablingFeatures.Main
+api-version: 1.21.1
+author: xLilith99
+description: Plugin básico para deshabilitar algunas funciones del minecraft
